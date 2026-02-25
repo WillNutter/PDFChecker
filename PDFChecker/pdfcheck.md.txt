@@ -1,0 +1,8 @@
+sudo apt install poppler-utils
+pdfinfo -v
+sudo python3 pdf_scan.py
+
+Optional
+git clone https://github.com/DidierStevens/DidierStevensSuite.git
+pdf-parser.py --search javascript file.pdf
+pdf-parser.py --search OpenAction file.pdf

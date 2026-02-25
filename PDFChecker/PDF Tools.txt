@@ -1,0 +1,6 @@
+pdfinfo (basic metadata)
+pdfinfo -js (JavaScript detection)
+pdfinfo -struct (structure)
+pdfdetach -list (embedded files)
+pdftohtml -xml (deep inspection if needed)
+OR better: pdf-parser.py (Didier Stevens tool)
